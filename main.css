@@ -1,102 +1,133 @@
-
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    font-size: small;
-    min-width: 100%;
-    display: block;
 }
 
-.space {
-    flex: 1 1 auto;
-}
-
-.nav-top {
-    list-style: none;
-    padding: 7px 23px 0px 17px;
-    display: inline;
-}
-
-.store {
-    padding-right: 15px;
-    color:black
-}
-
-.about {
-    padding-right: 15px;
-    padding-left: 15px;
-    color: black;
-}
-
-.button, .images, .gmail, .apps {
-    padding-right: 15px;
-    float: right;
-    color: black;
-}
-
-.apps img {
-    width: 23px;
-    height: 23px;
-    padding: 4.5px 3px 0px 3px;
-    opacity: 50%;
-}
-
-.nav-apps:hover {
-    opacity: 1;
-}
-
-.sign-in {
-    border: none;
-    font-weight: bold;
-    background-color: #4285f4;
-    color: white;
-    margin: 0;
-    border-radius: 3px;
+#gmail, #images, .user {
     float: right;
 }
 
-a {
+#navbar a {
+    display: inline-flex;
+    margin-top: 23px;
+    color:black;
     text-decoration: none;
-    cursor: pointer;
+    font-size: 13px;
 }
 
-a:hover {
+#navbar a:hover {
     text-decoration: underline;
 }
 
-.main-container {
-    display: flex;
-    flex-direction: column;
+#about {
+    margin-left: 25px;
+    margin-right: 10px;
 }
 
-.google-logo {
-   max-width: 100%;
-   height: auto;
-   padding-top: 20px;
-   cursor: pointer;
+#images {
+    margin-left: 15px;
+    margin-right: 20px;
 }
 
-.middle-sect {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+#nav a.user {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
 }
 
-input {
-    width: 34vw;
-    height: 40px;
+#grid {
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-top: 21px;
+    margin-right: 20px;
+}
+
+#signin {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: #4c8bf5;
+    border-color: #4c8bf5;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-right: 30px;
+}
+
+#middle {
+    margin-top: 85px;
+    text-align: center;
+}
+
+#google {
+    height: 180px;
+    width: auto;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 10px;
+    border-color: rgb(206, 206, 206);
+}
+
+#searchbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:475px;
     border-radius: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    margin-top: 25px;
-    padding: 0 4%;
-    outline: none;
-    background-image: url(images/search.png);
-    background-repeat: no-repeat;
-    background-size: 1.5vw;
-    background-position: 2% 50%;
-    opacity: 50%;
+    border-color: rgb(206, 206, 206);
+    text-emphasis: none;
+    outline: 0;
 }
 
+#middlebutton {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#googlesearch {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    margin-right: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+#feelinglucky {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    margin-left: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+   font-size: 15px;
+   color: rgb(104, 101, 101);
+   text-align: center;
+}
+
+ul:hover {
+    text-decoration: underline;
+}
+
+ li {
+     display: inline-flex;
+ }
 
